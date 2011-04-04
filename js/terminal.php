@@ -103,7 +103,6 @@ $(function()
 				$('#torlist').load('../datapull/tpb.php?tor='+split[1], function() {});
 				$('.detLink').innerHTML = $('.detLink').href;
 				$('#textbox').val('');
-				window.location('#whoisinfo');
 			}
 		}
 	});
