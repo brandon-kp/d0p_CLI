@@ -1,0 +1,1 @@
+<?php error_reporting(0);$data = shell_exec('uptime');echo $data;?>

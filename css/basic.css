@@ -1,0 +1,98 @@
+body, html{
+background:#3f3124; 
+margin:0;
+padding:0;
+height:100%;
+width:100%;
+}
+
+input[type=text]{
+background:transparent;
+}
+
+h1{
+color:#c6d1c3; 
+font-family:gruppo; 
+font-weight:bold; 
+font-size:2.9em; 
+margin-bottom:1px; 
+text-indent:10px; 
+padding:0; 
+line-height:1.4em;
+width:50%;
+margin-left:30px;
+}
+
+#terminal{
+width:50%;
+overflow:auto;
+margin-left:30px;
+border-top:1px solid #c6d1c3;
+z-index:1;
+margin-bottom:100px;
+}
+
+#dialogs{
+float:right;
+height:400px;
+width:45%;
+margin-top:-30px;
+} 
+#testfade{display:none}
+
+h2{
+color:#c6d1c3; 
+font-family:ubuntu; 
+border-bottom:4px solid; 
+line-height:60px; 
+margin-top:-10px; 
+font-weight:normal; 
+opacity:0.6; 
+font-size:12pt;
+}
+#output, #terminal, #textbox{
+font-family:ubuntu;
+color:#fff;
+}
+.highlight{
+font-size:110%;
+color:#ff4040;
+}
+h3{
+text-indent:25px;
+}
+
+#footer{
+background:#2f2720;
+height:130px;
+z-index:5;
+position:relative;
+}
+
+#wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+}
+
+
+
+/*odd & even tweaks for little details for which I never could have planned*/
+.a1{display:block;font-size:12px;opacity:0.2; border-top:4px solid #c6d1c3; margin-top:30px;} /*'partial list of commands'*/
+.cmd{color:#daa574; float:left; display:block; width:20%; clear:left; font-size:90%;} /*this is the commands themselves, in the list of commands*/
+.att{color:#8f7155; font-size:100%;} /*any attributes that go next to a command*/
+.det{font-size:13px;}
+#output{line-height:150%;}
+#ta{width:671px; height: 170px; border:0; background:#3f3124; color:#fff; font-family:monospace; font-size:12px; white-space:nowrap;} /*whois results*/
+#testfade,.infopop{background:#53463a; border:1px solid #655a50; padding:10px; color:#fff; font-family:Ubuntu; font-size:14px; width:70%; float:right; margin-right:30px;}
+span.close{ float:right; width:16px; height:16px; background:url('trontastic/images/ui-icons_1f1f1f_256x240.png') -30px 50px; position:relative; top:-10px; left:6px; cursor:pointer;}/*Ugh. Close button overkill.*/
+
+#dialogs #testfade h3{border:1px solid #999; -moz-border-radius:5px; font-family:Oswald; font-weight:normal; font-variant:small-caps; text-align:center; font-size:14px; background:#2f2720;}
+#dialogs div img{width:90px; height:90px; float:left;}
+#dialogs #testfade ul{margin:0; padding:0}
+#dialogs #testfade ul li{list-style-type:none; list-style-position:outside; margin:0; font-size:13px;}
+#dialogs #left{float:left; position:relative; left:5px; color:#c6d1c3; width:33%;}
+#dialogs #left li{border:1px solid #655a50; background:#3f3124; margin:1px!important; padding:1px}
+#dialogs #right{float:right; color:#c6d1c3;}
+#dialogs #right li{border:1px solid #655a50; background:#3f3124; margin:1px!important; padding:1px; text-align:right;}
+#dialogs a{color:#c6d1c3; font-weight:bold; text-decoration:none;}
